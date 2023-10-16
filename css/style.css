@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Estilo del logotipo en la barra de navegación */
+.navbar-brand img {
+    max-height: 10%;
+}
+
+/* Estilo de los enlaces en la navegación */
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo del contenido principal */
+.main-content {
+    padding: 20px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* Agregamos un borde suave */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+/* Estilo del botón dentro de las tarjetas */
+.card button a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Estilo del carrusel */
+.carousel {
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+}
+
+/* Estilo de los indicadores del carrusel */
+.carousel-indicators li {
+    background-color: #007BFF;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+/* Estilo de los controles del carrusel (círculos) */
+.carousel-control-prev-circle,
+.carousel-control-next-circle {
+    background-color: #007BFF;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilo de las imágenes en el carrusel */
+.carousel-item img {
+    border: 1px solid #0a0909;
+    border-radius: 5px;
+    max-height: 300px;
+    /* Reducir la altura de las imágenes */
+}
+
+/* Estilo de los controles de flecha */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+    border: none;
+}
+
+/* Estilo de la leyenda del carrusel */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Estilo de los controles de carrusel (círculos y flechas) al pasar el mouse */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+    transition: opacity 0.9s;
+    /* Transición suave de 0.9 segundos al pasar el mouse */
+}
+
+/* Estilo del ícono en los controles de carrusel */
+.custom-icon {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #FFDB58;
+    color: #dea145;
+    text-align: center;
+    padding: 10px 0;
+}
